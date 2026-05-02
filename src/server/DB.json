@@ -1,0 +1,135 @@
+{
+    "users_data":[],
+    "listings":[],
+    "moderation_listings":[],
+    "messages_data":[],
+    "categories_data": [
+    {
+      "category_name": "Real Estate",
+      "sub_categories": [
+        "Apartments",
+        "Houses",
+        "Commercial Property",
+        "Land",
+        "Daily Rent"
+      ]
+    },
+    {
+      "category_name": "Transport",
+      "sub_categories": [
+        "Cars",
+        "Motorcycles",
+        "Trucks & Buses",
+        "Parts & Accessories",
+        "Water Transport"
+      ]
+    },
+    {
+      "category_name": "Electronics",
+      "sub_categories": [
+        "Phones & Communication",
+        "Computers & Laptops",
+        "TV & Audio",
+        "Gaming Consoles",
+        "Cameras"
+      ]
+    },
+    {
+      "category_name": "Home & Garden",
+      "sub_categories": [
+        "Furniture",
+        "Appliances",
+        "Repair & Tools",
+        "Garden",
+        "Interior & Decor"
+      ]
+    },
+    {
+      "category_name": "Clothing & Accessories",
+      "sub_categories": [
+        "Men's Clothing",
+        "Women's Clothing",
+        "Children's Clothing",
+        "Shoes",
+        "Accessories"
+      ]
+    },
+    {
+      "category_name": "Kids & Toys",
+      "sub_categories": [
+        "Toys",
+        "Strollers",
+        "Car Seats",
+        "Children's Furniture",
+        "School Supplies"
+      ]
+    },
+    {
+      "category_name": "Hobbies & Sports",
+      "sub_categories": [
+        "Bicycles",
+        "Fitness Equipment",
+        "Outdoor & Camping",
+        "Musical Instruments",
+        "Collectibles"
+      ]
+    },
+    {
+      "category_name": "Animals",
+      "sub_categories": [
+        "Dogs",
+        "Cats",
+        "Birds",
+        "Fish",
+        "Other Animals",
+        "Pet Supplies"
+      ]
+    },
+    {
+      "category_name": "Services",
+      "sub_categories": [
+        "Repair Services",
+        "Construction",
+        "IT & Programming",
+        "Education",
+        "Beauty & Health"
+      ]
+    },
+    {
+      "category_name": "Jobs",
+      "sub_categories": [
+        "IT Jobs",
+        "Sales Jobs",
+        "Construction Jobs",
+        "Administrative Jobs",
+        "Part-time Jobs"
+      ]
+    },
+    {
+      "category_name": "Business & Equipment",
+      "sub_categories": [
+        "Industrial Equipment",
+        "Agricultural Equipment",
+        "Shop Equipment",
+        "Office Equipment"
+      ]
+    },
+    {
+      "category_name": "Food & Agriculture",
+      "sub_categories": [
+        "Fruits & Vegetables",
+        "Meat & Dairy",
+        "Seeds & Plants",
+        "Farm Animals"
+      ]
+    },
+    {
+      "category_name": "Other",
+      "sub_categories": [
+        "Free Items",
+        "Lost & Found",
+        "Miscellaneous"
+      ]
+    }
+  ]
+}
