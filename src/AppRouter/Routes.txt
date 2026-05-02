@@ -1,0 +1,17 @@
+login /login
+register /register
+category /category dual
+help /help
+create-shop /create-shop
+delivery /delivery
+Profile /profile
+Notifications /notifications
+
+products /item
+
+user /user
+
+HomePage /
+BusinessPages /business-pages
+
+cars
