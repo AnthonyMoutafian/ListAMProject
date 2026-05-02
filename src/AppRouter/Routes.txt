@@ -1,17 +1,16 @@
-login /login
-register /register
-category /category dual
-help /help
-create-shop /create-shop
-delivery /delivery
-Profile /profile
-Notifications /notifications
+login /login =
+register /register =
+category /category dual =
+help /help =
+create-shop /create-shop =
+delivery /delivery =
+Profile /profile =
+Notifications /notifications =
+orders /orders X
 
-orders /orders
+products /item =
 
-products /item
-
-user /user
+user /user =
 
 HomePage /
 BusinessPages /business-pages
@@ -54,6 +53,17 @@ Profile /profile !out! -> {
 
 help /help !out! -> /help/${helpTypeID}
 delivery /delivery !out! -> /delivery/${categoryTypeID}
+
+
+products /item !out! -> /item/${itemID}
+user /user !out! -> /user/${userID}
+
+Story /story !out! -> /story/${storyID}
+
+BusinessPages /businesses !out! -> /businesses/${businessesUserID}
+
+PostAnAd /add-product !out! -> /add-product/${?chooseTypeID}
+PostAnAd /add-product !out! -> /add-product/${addTypeID}
 
 
 }
