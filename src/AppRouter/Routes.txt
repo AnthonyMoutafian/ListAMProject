@@ -1,17 +1,71 @@
-login /login
-register /register
-category /category dual
-help /help
-create-shop /create-shop
-delivery /delivery
-Profile /profile
-Notifications /notifications
+login /login =
+register /register =
+category /category dual =
+help /help =
+create-shop /create-shop =
+delivery /delivery =
+Profile /profile =
+Notifications /notifications =
+orders /orders X
 
-products /item
+products /item =
 
-user /user
+user /user =
 
 HomePage /
 BusinessPages /business-pages
 
 cars
+
+-----------------------------------------------------------------------------------------
+
+
+NAVIGATION BAR !OUT! -> {
+
+login /login !solo!
+register /register !solo!
+Profile /profile !solo!
+category(dualRoute) /category !solo!
+Notifications /notifications !solo!
+
+}
+
+ADDITIONAL NAVIGATION BAR !OUT! -> {
+
+help /help !solo!
+create-shop /create-shop !solo!
+delivery /delivery !solo!
+
+}
+
+Branched Routes !OUT! -> {
+
+category(dualRoute) /category !out! -> /category/${categoryTypeID}/${categoryTypeSort}
+
+Profile /profile !out! -> {
+/profile/ads
+/profile/purchases
+/profile/sales
+/profile/messages
+/profile/wallet 
+/profile/settings
+}
+
+help /help !out! -> /help/${helpTypeID}
+delivery /delivery !out! -> /delivery/${categoryTypeID}
+
+
+products /item !out! -> /item/${itemID}
+user /user !out! -> /user/${userID}
+
+Story /story !out! -> /story/${storyID}
+
+BusinessPages /businesses !out! -> /businesses/${businessesUserID}
+
+PostAnAd /add-product !out! -> /add-product/${?chooseTypeID}
+PostAnAd /add-product !out! -> /add-product/${addTypeID}
+
+
+}
+
+
